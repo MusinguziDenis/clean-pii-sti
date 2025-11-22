@@ -24,6 +24,4 @@ The [model training](train/train_yolo_models.py) script can be used to train a Y
 The [inference](inference/inference_yolo_models.py) script runs the model on X-ray images to detect PII and returns bounding boxes for the PII.
 
 ### Clean and Save
-
-
-
+See [instructions](Instructions.md).
