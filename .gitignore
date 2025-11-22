@@ -1,0 +1,35 @@
+yolo
+yolo_dataset
+runs
+yolo3
+deidentification
+new 6-03-25
+new dsi
+images
+project-1-at-2025-03-22-01-58-dad03b11.zip
+yolo2
+images2label
+shared images
+results.csv
+x-ray-od-annotations.csv
+shared images.zip
+yolo_dataset.zip
+lacuna_combined_runs.tar.gz
+x-ray-od-annotations.csv
+results
+test/__pycache__
+clean/__pycache__
+inference/__pycache__
+cleandicom.ipynb
+DICOM-TIFF format.zip
+DICOM-TIFF format
+out.dcm
+pii-results.tar.gz
+pii-results.tar.gz
+yolo11n.pt
+pii_yolo_dataset.tar.gz
+notebooks
+playground.ipynb
+1073.jpeg
+clean-images
+clean.jpeg
