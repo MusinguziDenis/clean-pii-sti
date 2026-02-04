@@ -1,4 +1,5 @@
 line-length = 79
 
+[lint]
 select = ["ALL"]
-ignore = ["T201", "PLW2901", "D100", "PTH118", "D104", "S104"]
+ignore = ["T201", "PLW2901", "D100", "PTH118", "D104", "S104", "D203", "D213"]
