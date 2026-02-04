@@ -49,13 +49,13 @@ def web_clean_image() -> Response | tuple[Response, int]:
     ]
     all_bboxes = [[math.ceil(x) for x in bbox] for bbox in all_bboxes]
 
-    image = Image.open(file.stream).convert("RGB")
+    image = Image.open(file)
     image_array = np.array(image)
     for bbox in all_bboxes:
         image_array[bbox[1] : bbox[3], bbox[0] : bbox[2]] = 0
 
-    # Convert numpy array back to image (guaranteed RGB for JPEG)
-    clean_image = Image.fromarray(image_array).convert("RGB")
+    # Convert numpy array back to image
+    clean_image = Image.fromarray(image_array)
 
     # Return image
     buf = io.BytesIO()
